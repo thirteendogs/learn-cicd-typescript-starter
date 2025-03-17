@@ -1,4 +1,4 @@
-![Code test coverage](https://github.com/thirteendogs/learn-cicd-typescript-starter/actions/workflows/ci/badge.svg)
+![Code test coverage](https://github.com/thirteendogs/learn-cicd-typescript-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-typescript-starter (Notely)
 
