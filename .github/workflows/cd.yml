@@ -40,3 +40,6 @@ jobs:
 
       - name: "Push Docker image to GCP"
         run: gcloud builds submit --tag europe-southwest1-docker.pkg.dev/notely-454022/notely-ar-repo/notely:latest .
+
+      - name: Deploy to Cloud Run
+        run: gcloud run deploy notely --image europe-southwest1-docker.pkg.dev/notely-454022/notely-ar-repo/notely:latest --region us-central1 --allow-unauthenticated --project notely-454022 --max-instances=4
